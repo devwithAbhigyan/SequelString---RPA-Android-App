@@ -30,7 +30,7 @@ def create_app():
     from app.controller import (
         main, pwa
     )
-    app.register_blueprint(main.bp)
+    app.register_blueprint(main.app)
     app.register_blueprint(pwa.bp)
 
     return app
