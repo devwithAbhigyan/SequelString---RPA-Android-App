@@ -7,7 +7,7 @@
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
-  "start_url": "/",
+  "start_url": "../templates/login_user.html",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",

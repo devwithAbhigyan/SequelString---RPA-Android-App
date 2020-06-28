@@ -6,7 +6,7 @@ bp = Blueprint('pwa', __name__, url_prefix='')
 
 
 @bp.route('/manifest.json')
-def manifest():
+def manifest(): 
     return send_from_directory('static', 'manifest.json')
 
 
